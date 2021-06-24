@@ -17,6 +17,7 @@ class AbstractBot(ABC):
                     "Discord server bot created by __@Okashii#0001__ for the Rain Discord server "
                     "(__discord.rain-ffxiv.com__).\n"
                     "For assistance, please email __Oka@rain-ffxiv.com__\n"
+                    "Source code is available at https://github.com/okashii-kazegane/RainBots\n"
                     "For more information about this bot, please see http://bots.rain-ffxiv.com\n\n")
 
     @abstractmethod
