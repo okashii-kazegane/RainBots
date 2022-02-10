@@ -6,7 +6,7 @@ from Rain.Common.JsonHandler import JsonHandler
 
 class DiffChannel(JsonHandler):
     def __init__(self, guild) -> None:
-        super().__init__(guild, Configs.diffConfigFileName)
+        super().__init__("Rain\\DiffBot\\", guild, Configs.diffConfigFileName)
         self.default_values[Configs.diffchannelIndex] = secrets.token_urlsafe(24)
         self.flag_success = self.setup()
 

@@ -1,6 +1,8 @@
+import sys
 import os
-
 import discord
+
+sys.path.append(os.getcwd())
 
 
 class Configs:

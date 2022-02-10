@@ -338,7 +338,7 @@ async def request(ctx, *string_args):
 
 if __name__ == "__main__":
     mToken = ''
-    dToken = ''
+    dToken = 'Error'
     if len(sys.argv) >= 2:
         mToken = sys.argv[1]
     Configs.initialize(mToken, dToken)

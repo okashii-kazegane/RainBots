@@ -8,7 +8,7 @@ from Rain.Common.JsonHandler import JsonHandler
 
 class Roles(JsonHandler):
     def __init__(self, guild: discord.Guild):
-        super().__init__(guild, Configs.jsonConfigFileName)
+        super().__init__("Rain\\Monsoon\\", guild, Configs.jsonConfigFileName)
         self.default_values[Configs.roleAdminIndex] = secrets.token_urlsafe(24)
         self.default_values[Configs.roleNamesIndex] = []
         self.default_values[Configs.roleAssignableIndex] = []
